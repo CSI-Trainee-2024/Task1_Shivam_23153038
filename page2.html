@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Inspired? GET STARTED</h1>
+        </header>
+
+        <nav>
+            <button>Flights</button>
+            <button>Trains</button>
+            <button>Buses</button>
+            <button>Cabs</button>
+            <button>Accommodations</button>
+            <button>Travel Partners</button>
+        </nav>
+
+        <div class="search-section">
+            <div class="input-group">
+                <label for="origin">From</label>
+                <input type="text" id="origin" placeholder="Origin">
+            </div>
+            <div class="input-group">
+                <label for="destination">To</label>
+                <input type="text" id="destination" placeholder="Destination">
+            </div>
+            <div class="input-group">
+                <label for="depart">Depart</label>
+                <input type="date" id="depart">
+            </div>
+        </div>
+
+        <div class="fare-type">
+            <label><input type="radio" name="fare" checked> Regular Fares</label>
+            <label><input type="radio" name="fare"> Armed Forces Fares</label>
+            <label><input type="radio" name="fare"> Student Fares</label>
+            <label><input type="radio" name="fare"> Senior Citizen Fares</label>
+            <label><input type="radio" name="fare"> Doctors & Nurses Fares</label>
+            <label><input type="checkbox"> Direct flight only</label>
+        </div>
+
+        <button class="search-button">Search</button>
+    </div>
+</body>
+
+</html>
