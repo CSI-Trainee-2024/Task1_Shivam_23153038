@@ -5,7 +5,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Page Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 0;
+            margin: 0;
+            background-color: #e6ede8;
+        }
 
+        .header {
+            padding: 30px 5%;
+            text-align: left;
+            background-color: rgb(244, 248, 244);
+            font-size: 2rem;
+        }
+
+        .buttons-container {
+            display: flex;
+            gap: 15px;
+            padding: 20px 5%;
+        }
+
+        .action-button {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            cursor: pointer;
+        }
+
+        .action-button h3 {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .travel-tips {
+            padding: 20px 5%;
+        }
+
+        .travel-tips h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .cards-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            flex: 1;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            padding: 20px;
+            color: #333;
+        }
+
+        .card-content h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .card-content p {
+            margin: 10px 0;
+        }
+
+        .card-content button {
+            background: #0078d4;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .card-content button:hover {
+            background: #005a9e;
+        }
+
+        .more-destinations {
+            padding: 30px 5%;
+            background: white;
+        }
+
+        .more-destinations h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .destinations-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .destinations-list div {
+            flex: 1 1 20%;
+        }
+    </style>
 </head>
 
 <body>
