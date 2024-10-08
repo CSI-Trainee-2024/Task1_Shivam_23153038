@@ -243,3 +243,8 @@ nav {
   width: 100%;
 }
 /* ----for smaller screen devices----- */
+@media only screen and (max-width: 700px) {
+  .logo {
+    position: fixed;
+  }
+}
