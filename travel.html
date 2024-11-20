@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="travel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Travel</title>
     <script src="https://kit.fontawesome.com/fb714dd956.js" crossorigin="anonymous"></script>
 </head>
@@ -13,6 +14,9 @@
     <div class="header">
         <nav>
             <img src="images/logo.png" class="logo">
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
             <ul class="nav-links">
                 <li><a href="#" class=" menu-item active">Popular Places</a></li>
                 <li><a href="#" class=" menu-item active">Travel Outside</a></li>
@@ -195,6 +199,23 @@
         </div>
 
     </div>
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('nav-active');
+            navToggle.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navLinks.contains(e.target) && !navToggle.contains(e.target)) {
+                navLinks.classList.remove('nav-active');
+                navToggle.classList.remove('active');
+            }
+        });
+    </script>
 </body>
 
 </html>
