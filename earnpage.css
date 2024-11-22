@@ -1,0 +1,169 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.btn-primary {
+    background-color: #ff385c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-secondary {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: #e33655;
+}
+
+.estimate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+}
+
+.estimate-content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #ff385c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.map-box {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-size: 14px;
+}
+
+.steps {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.protection {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+}
+
+.aircover-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.hosting-tools {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.tools-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.tool-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.faq {
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+}
+
+.faq-container details {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.footer-note{
+    margin-left: 200px;
+}
